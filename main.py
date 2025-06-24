@@ -69,7 +69,7 @@ async def embed(interaction: discord.Interaction,
 
 @bot.tree.command(name="queue", description="add to queue")
 async def queue(interaction: discord.Interaction, user: discord.Member, order: str, payment: str):
-    channel = bot.get_channel(1381386573311905952)
+    channel = bot.get_channel(1386564664258727946)
     await interaction.response.send_message("ticket queued!")
     embed = discord.Embed(
         color=discord.Color.from_str("#bd9fe2"),
